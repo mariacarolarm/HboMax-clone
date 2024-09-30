@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HBOmax Clone</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+    <section id="apresentacao">
+        <video autoplay muted loop>
+            <source src="videos/movieGirl.mp4" type="video/mp4">
+        </video>
+
+        <div id="barra-de-navegacao">
+            <img src="imgs/logo.svg" width="160px">
+
+            <div id="menu">
+                <a href="#">ENTRAR</a>
+                <a href="#" class="chamada-para-acao">ASSINE AGORA</a>
+            </div>
+        </div>
+
+        <div id="login-page" class="login-popup" style="display: none;">
+            <div class="popup-content">
+                <h2>Login</h2>
+                <form>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    <br><br>
+                    <label for="password">Senha:</label>
+                    <input type="password" id="password" name="password" required>
+                    <br><br>
+                    <button type="submit">ENTRAR</button>
+                </form>
+                <button id="close-login">FECHAR</button>
+            </div>
+        </div>
+
+        <div id="subscription-page" class="subscribe-popup" style="display: none;">
+            <div class="popup-content">
+                <h2>Assinatura</h2>
+                <form>
+                    <label for="name">Nome:</label>
+                    <input type="text" id="name" name="name" required>
+                    <br><br>
+                    <label for="email">Email:</label>
+                    <input type="email" id="sub-email" name="email" required>
+                    <br><br>
+                    <label for="password">Senha:</label>
+                    <input type="password" id="sub-password" name="password" required>
+                    <br><br>
+                    <label for="cardholder-name">Nome do titular:</label>
+                     <input type="text" id="cardholder-name" name="cardholder-name" required>
+                    <br><br>
+                    <label for="card-number">Número do cartão de crédito:</label>
+                    <input type="text" id="card-number" name="card-number" pattern="\d{16}" placeholder="1234 5678 9012 3456" required>
+                    <br><br>
+                    <div class="double-fields">
+                        <div>
+                          <label for="expiry-date">Vencimento:</label>
+                          <input type="text" id="expiry-date" name="expiry-date" pattern="\d{2}/\d{2}" placeholder="MM/YY" required>
+                        </div>
+                        <div>
+                          <label for="cvv">CVV:</label>
+                          <input type="text" id="cvv" name="cvv" pattern="\d{3}" placeholder="123" required>
+                        </div>
+                      </div>
+                    <button type="submit">ASSINAR</button>
+                </form>
+                <button id="close-subscription">FECHAR</button>
+            </div>
+        </div>
+
+        <div id="chamada">
+            <div id="promocional">
+                <img src="imgs/chamada-para-acao.png">
+            </div>
+
+            <div id="acao">
+                <a href="#" class="chamada-para-acao">ASSINE AGORA</a>
+                <p>*aplicável ao plano anual com o pagamento antecipado.</p>
+            </div>
+        </div>
+
+    </section>
+    <script src="/script.js"></script>
+</body>
+</html>
