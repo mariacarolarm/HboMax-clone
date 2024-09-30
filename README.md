@@ -4,7 +4,6 @@ Este projeto é um clone da página inicial do HBO Max, apresentando um vídeo d
 
 ## Funcionalidades
 
-- **Design Responsivo:** O layout se ajusta a diferentes tamanhos de tela, proporcionando uma boa experiência tanto no desktop quanto no mobile.
 - **Vídeo de Fundo:** A página exibe um vídeo em autoplay e sem som na seção principal.
 - **Barra de Navegação:** Contém o logo do HBO Max e links para os pop-ups de login e assinatura.
 - **Pop-up de Login:** Ao clicar no botão "ENTRAR", uma janela modal é aberta para que os usuários possam inserir seu e-mail e senha.
@@ -23,8 +22,7 @@ Este projeto é um clone da página inicial do HBO Max, apresentando um vídeo d
    ```bash
    git clone https://github.com/mariacarolarm/HboMax-clone.git
 Navegue até o diretório do projeto:
-bash
-Copiar código
+   ```bash
 cd HboMax-clone
 
 ## Uso
