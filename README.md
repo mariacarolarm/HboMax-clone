@@ -21,9 +21,9 @@ Este projeto é um clone da página inicial do HBO Max, apresentando um vídeo d
 1. Clone o repositório:
    ```bash
    git clone https://github.com/mariacarolarm/HboMax-clone.git
-Navegue até o diretório do projeto:
+2. Navegue até o diretório do projeto:
    ```bash
-cd HboMax-clone
+   cd HboMax-clone
 
 ## Uso
 
